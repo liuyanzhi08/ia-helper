@@ -10,6 +10,7 @@ module.exports = {
   entry: {
     content: './src/scripts/content.js',
 	background: './src/scripts/background.js',
+	popup: './src/popup/popup.js',
   },
   output: {
 	path: path.resolve(__dirname, 'dist'),
@@ -20,7 +21,6 @@ module.exports = {
 	  { from: 'manifest.json', to: 'manifest.json' },
 	  { from: 'src/images/icon.png', to: 'icon.png' },
 	  { from: 'src/popup/popup.html', to: 'popup.html' },
-	  { from: 'src/popup/popup.js', to: 'popup.js' },
 	]),
   ],
 };
