@@ -1,0 +1,25 @@
+{
+  "name": "ia-helper",
+  "version": "1.0.0",
+  "description": "Importing articles in bulk from a JSON for DEDE CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "vue": "^2.6.10",
+    "zepto": "^1.2.0"
+  }
+}
